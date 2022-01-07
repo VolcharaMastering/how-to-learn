@@ -1,4 +1,5 @@
-body,header,section,footer,div,h1,h2,h3,h4,h5,main,nav,p,a,ul{
+.feynman__title,.footer__column-heading,.footer__column_content_copyright,.footer__column_content_info,.footer__column_content_social,
+.header__subtitle,.section-title,.section-title_theme_dark,.table,.table__heading,.two-columns__brief{
   margin: 0;
   padding: 0;
 }
@@ -32,7 +33,6 @@ body,header,section,footer,div,h1,h2,h3,h4,h5,main,nav,p,a,ul{
   z-index: 2;
 }
 .header__title{
-/*  align-content: center;*/
   width: 730px;
   display: flex;
   margin-left: 64px;
@@ -57,6 +57,7 @@ body,header,section,footer,div,h1,h2,h3,h4,h5,main,nav,p,a,ul{
 }
 .header__link{
   text-decoration: none;
+  color: #2f80ed;
 }
 .header__main-illustration{
   width: 765px;
@@ -95,6 +96,7 @@ body,header,section,footer,div,h1,h2,h3,h4,h5,main,nav,p,a,ul{
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
+  color: #2f80ed;
   font-weight: normal;
 }
 .two-columns__main-text{
@@ -165,7 +167,7 @@ body,header,section,footer,div,h1,h2,h3,h4,h5,main,nav,p,a,ul{
 }
 
 .feynman{
-  height: 890px;
+  min-height: 890px;
   display: flex;
   flex-direction: column;
   padding-top: 100px;
@@ -192,6 +194,7 @@ body,header,section,footer,div,h1,h2,h3,h4,h5,main,nav,p,a,ul{
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
   text-decoration: none;
   position: absolute;
   top: 50%;
@@ -240,6 +243,9 @@ body,header,section,footer,div,h1,h2,h3,h4,h5,main,nav,p,a,ul{
 
 }*/
 .kaufman__triangle{
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
+  box-sizing: border-box;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -254,6 +260,7 @@ body,header,section,footer,div,h1,h2,h3,h4,h5,main,nav,p,a,ul{
   padding: 60px 0 40px;
   justify-content: center;
   background-color: #1f1f1f;
+  box-sizing: border-box;
   position: relative;
 }
 .footer__columns{
@@ -294,6 +301,7 @@ body,header,section,footer,div,h1,h2,h3,h4,h5,main,nav,p,a,ul{
   color: white;
   line-height: 30px;
   font-size: 18px;
+  color: #2f80ed;
   font-weight: normal;
   text-decoration: none;
 }
@@ -306,14 +314,3 @@ body,header,section,footer,div,h1,h2,h3,h4,h5,main,nav,p,a,ul{
   height: 16px;
   margin-right: 10px;
 }
-
-
-/* BORDERS TO TEST BLOCKS*/
-/*
-  border: 3px solid black;
-  border: 1px dotted black;
-  border: 1px solid blue;
-  border: 1px dashed green;
-  border: 1px solid red;     */
-
-
