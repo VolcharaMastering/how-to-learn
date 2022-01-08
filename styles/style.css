@@ -1,5 +1,5 @@
 .feynman__title,.footer__column-heading,.footer__column_content_copyright,.footer__column_content_info,.footer__column_content_social,
-.header__subtitle,.section-title,.section-title_theme_dark,.table,.table__heading,.two-columns__brief{
+.header__title,.header__subtitle,.section-title,.section-title_theme_dark,.table,.table__heading,.two-columns__brief{
   margin: 0;
   padding: 0;
 }
@@ -300,7 +300,7 @@
 .footer__column-link{
   line-height: 30px;
   font-size: 18px;
-  color: #2f80ed;
+  color: white;
   font-weight: normal;
   text-decoration: none;
 }
