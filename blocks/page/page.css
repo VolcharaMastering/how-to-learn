@@ -1,5 +1,5 @@
 .feynman__title,.footer__column-heading,.footer__column_content_copyright,.footer__column_content_info,.footer__column_content_social,
-.header__title,.header__subtitle,.section-title,.section-title_theme_dark,.table,.table__heading,.two-columns__brief{
+.header__title,.header__subtitle,.section-title,.section-title_theme_dark,.table,.table__heading,.two-columns__brief,.cards__item,.cards__title,.cards_description{
   margin: 0;
   padding: 0;
 }
