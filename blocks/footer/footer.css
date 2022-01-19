@@ -1,9 +1,17 @@
 .footer{
-    display: flex;
-    min-height: 350px;
-    padding: 60px 0 40px;
-    justify-content: center;
-    background-color: #1f1f1f;
-    box-sizing: border-box;
-    position: relative;
-  }
+  display: flex;
+  min-height: 350px;
+  padding: 60px 0 40px;
+  justify-content: center;
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+  position: relative;
+}
+
+  /* BORDERS TO TEST BLOCKS*/
+/*
+  border: 3px solid black;
+  border: 1px dotted black;
+  border: 1px solid blue;
+  border: 1px dashed green;
+  border: 1px solid red;     */
